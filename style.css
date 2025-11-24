@@ -1,0 +1,108 @@
+body {
+    /* Mengatur latar belakang halaman */
+    background-color: #f4f4f4;
+    /* Menggunakan font yang mudah dibaca */
+    font-family: Arial, sans-serif;
+    /* Membuat konten terpusat di tengah layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Memastikan body memenuhi seluruh viewport */
+    min-height: 100vh;
+    /* Menghilangkan margin default browser */
+    margin: 0;
+}
+
+.login-container {
+    /* Border untuk visualisasi area login */
+    border: 1px solid #ccc;
+    /* Efek bayangan halus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Latar belakang kotak login */
+    background-color: #fff;
+    /* Padding di dalam kotak login */
+    padding: 40px;
+    /* Sudut membulat */
+    border-radius: 8px;
+    /* Mengatur lebar kotak login */
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    /* Margin bawah untuk judul */
+    margin-bottom: 30px;
+    /* Warna judul */
+    color: #333;
+}
+
+.input-group {
+    /* Margin bawah untuk memisahkan grup input */
+    margin-bottom: 20px;
+    /* Memastikan label dan input berada di baris baru */
+    text-align: left;
+}
+
+.input-group label {
+    /* Membuat label tebal */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    /* Mengisi seluruh lebar grup input */
+    width: 100%;
+    /* Padding di dalam kolom input */
+    padding: 10px;
+    /* Border tipis */
+    border: 1px solid #ddd;
+    /* Sudut membulat */
+    border-radius: 4px;
+    /* Menyesuaikan lebar dengan padding dan border */
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    /* Mengisi seluruh lebar kotak login */
+    width: 100%;
+    /* Padding tombol */
+    padding: 12px;
+    /* Warna tombol */
+    background-color: #007bff;
+    /* Warna teks tombol */
+    color: white;
+    /* Menghilangkan border default */
+    border: none;
+    /* Sudut membulat */
+    border-radius: 4px;
+    /* Mengubah kursor saat diarahkan */
+    cursor: pointer;
+    /* Margin bawah tombol */
+    margin-top: 10px;
+    /* Transisi halus untuk hover */
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    /* Warna tombol saat kursor diarahkan */
+    background-color: #0056b3;
+}
+
+.forgot-password a {
+    /* Warna tautan */
+    color: #007bff;
+    /* Menghilangkan garis bawah default */
+    text-decoration: none;
+    /* Ukuran font lebih kecil */
+    font-size: 0.9em;
+    /* Margin atas untuk memisahkan dari tombol */
+    margin-top: 15px;
+    display: block;
+}
+
+.forgot-password a:hover {
+    /* Menambahkan garis bawah saat kursor diarahkan */
+    text-decoration: underline;
+}
